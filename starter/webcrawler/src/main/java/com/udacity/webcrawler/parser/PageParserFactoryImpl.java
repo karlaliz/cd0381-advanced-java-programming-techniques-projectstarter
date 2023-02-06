@@ -32,3 +32,4 @@ final class PageParserFactoryImpl implements PageParserFactory {
     return profiler.wrap(PageParser.class, delegate);
   }
 }
+
